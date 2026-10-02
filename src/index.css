@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-cinzel: 'Cinzel', Georgia, serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
+
+  --color-henna-950: #23080e;
+  --color-henna-900: #380f17;
+  --color-henna-800: #4A1521;
+  --color-henna-700: #5C1D24;
+  --color-henna-600: #7A2832;
+  --color-henna-500: #9B3340;
+  --color-gold-300: #F4E295;
+  --color-gold-400: #E6CA65;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B89628;
+  --color-gold-700: #93751B;
+  --color-emerald-800: #1B4332;
+  --color-emerald-900: #0D281E;
+  --color-cream-50: #FDFBF7;
+  --color-cream-100: #F9F5EC;
+  --color-cream-200: #F3EAD8;
+  --color-cream-300: #E8DCC4;
+}
+
+/* Custom delicate decorative Indian motifs and gold highlights */
+.bg-mandala-pattern {
+  background-image: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.08) 1px, transparent 1px),
+                    radial-gradient(circle at 0 0, rgba(92, 29, 36, 0.04) 1px, transparent 1px);
+  background-size: 28px 28px, 42px 42px;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #D4AF37 0%, #F5E5A4 50%, #B89628 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.henna-gradient-bg {
+  background: linear-gradient(145deg, #4A1521 0%, #340c14 100%);
+}
+
+.gold-shimmer {
+  background: linear-gradient(90deg, rgba(212,175,55,0.1) 0%, rgba(212,175,55,0.3) 50%, rgba(212,175,55,0.1) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}

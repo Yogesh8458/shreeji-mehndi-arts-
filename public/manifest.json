@@ -1,0 +1,18 @@
+{
+  "short_name": "Shreeji Mehndi",
+  "name": "Shreeji mehndi arts - Luxury Bridal Studio",
+  "description": "Indore's Premier Bridal Mehndi Salon at LIG Atal Dwar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2E0B12",
+  "theme_color": "#4A1521",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

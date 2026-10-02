@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#380F17" />
+      <stop offset="50%" stop-color="#4A1521" />
+      <stop offset="100%" stop-color="#23080E" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E5A4" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#B89628" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-dasharray="12 8" />
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#goldGrad)" stroke-width="2" />
+  
+  <!-- Central Lotus & Mandala -->
+  <g transform="translate(256 256) scale(1.6)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="url(#goldGrad)" stroke-width="2" />
+    <circle cx="0" cy="0" r="18" fill="url(#goldGrad)" />
+    <!-- Lotus Petals -->
+    <path d="M0 -75 C20 -40, 20 -15, 0 0 C-20 -15, -20 -40, 0 -75" fill="url(#goldGrad)" opacity="0.9" />
+    <path d="M0 75 C20 40, 20 15, 0 0 C-20 15, -20 40, 0 75" fill="url(#goldGrad)" opacity="0.9" />
+    <path d="M-75 0 C-40 20, -15 20, 0 0 C-15 -20, -40 -20, -75 0" fill="url(#goldGrad)" opacity="0.9" />
+    <path d="M75 0 C40 20, 15 20, 0 0 C15 -20, 40 -20, 75 0" fill="url(#goldGrad)" opacity="0.9" />
+    <!-- Diagonal Petals -->
+    <path d="M-53 -53 C-20 -40, -10 -20, 0 0 C-20 -10, -40 -20, -53 -53" fill="url(#goldGrad)" opacity="0.75" />
+    <path d="M53 53 C20 40, 10 20, 0 0 C20 10, 40 20, 53 53" fill="url(#goldGrad)" opacity="0.75" />
+    <path d="M53 -53 C40 -20, 20 -10, 0 0 C10 -20, 20 -40, 53 -53" fill="url(#goldGrad)" opacity="0.75" />
+    <path d="M-53 53 C-40 20, -20 10, 0 0 C-10 20, -20 40, -53 53" fill="url(#goldGrad)" opacity="0.75" />
+  </g>
+
+  <!-- Crown Banner Text -->
+  <text x="256" y="445" font-family="'Cinzel', serif, Georgia" font-size="34" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="4">SHREEJI</text>
+  <text x="256" y="475" font-family="'Montserrat', sans-serif" font-size="16" font-weight="600" fill="#E6CA65" text-anchor="middle" letter-spacing="6">MEHNDI ARTS</text>
+</svg>
